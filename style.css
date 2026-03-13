@@ -384,6 +384,216 @@ button { cursor: pointer; border: none; font-family: inherit; }
   box-shadow: 0 4px 15px rgba(230,126,34,0.3);
 }
 
+/* ---------- Main & Sub Tabs ---------- */
+.main-tabs {
+  margin-bottom: 16px;
+}
+
+.sub-tabs {
+  margin-bottom: 30px;
+}
+
+.sub-tab {
+  padding: 8px 18px;
+  font-size: 0.82rem;
+  border-radius: 20px;
+  background: transparent;
+  border: 1.5px solid var(--color-border);
+}
+
+.sub-tab.active {
+  background: var(--color-bg-dark);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 3px 10px rgba(26,26,46,0.2);
+}
+
+.sub-tab:hover:not(.active) {
+  border-color: var(--color-bg-dark);
+  color: var(--color-bg-dark);
+}
+
+/* ---------- Transfer Section ---------- */
+.transfer-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  animation: fadeInUp 0.5s ease;
+}
+
+.transfer-card {
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+}
+
+.transfer-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 36px 32px;
+  text-align: center;
+}
+
+.transfer-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.transfer-header h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.transfer-header p {
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+
+.transfer-calculator {
+  padding: 32px;
+}
+
+.transfer-calculator label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-text);
+}
+
+.transfer-input-wrap {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: var(--transition);
+  margin-bottom: 24px;
+}
+
+.transfer-input-wrap:focus-within {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px rgba(230,126,34,0.1);
+}
+
+.transfer-prefix {
+  padding: 14px 16px;
+  background: var(--color-bg);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-text-light);
+  border-right: 2px solid var(--color-border);
+}
+
+.transfer-input-wrap input {
+  flex: 1;
+  padding: 14px 16px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  background: transparent;
+}
+
+.transfer-result {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.transfer-result-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 0.95rem;
+}
+
+.transfer-result-row span:first-child {
+  color: var(--color-text-light);
+}
+
+.transfer-result-row span:last-child {
+  font-weight: 700;
+}
+
+.transfer-result-row .fee-amount {
+  color: var(--color-primary);
+}
+
+.transfer-result-row.total-row {
+  border-top: 2px solid var(--color-border);
+  margin-top: 8px;
+  padding-top: 14px;
+}
+
+.transfer-result-row.total-row span:first-child {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.transfer-result-row.total-row span:last-child {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.transfer-fee-info {
+  margin-bottom: 24px;
+}
+
+.transfer-fee-info h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--color-text);
+}
+
+.fee-table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fee-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+}
+
+.fee-row span:first-child {
+  color: var(--color-text-light);
+}
+
+.fee-badge {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.transfer-wa-btn {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 16px;
+  position: relative;
+  z-index: 2;
+}
+
 /* ---------- Products Grid ---------- */
 .products-grid {
   display: grid;
@@ -435,6 +645,26 @@ button { cursor: pointer; border: none; font-family: inherit; }
   font-size: 4rem;
   position: relative;
   overflow: hidden;
+}
+
+.product-image.ayam-bg {
+  background: linear-gradient(135deg, #fde2e2, #fdf6ee);
+}
+
+.product-image.herbalife-bg {
+  background: linear-gradient(135deg, #d4efdf, #eafaf1);
+}
+
+.product-image.service-bg {
+  background: linear-gradient(135deg, #d6eaf8, #ebf5fb);
+}
+
+.price-prefix {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
 .product-image::after {
@@ -1028,6 +1258,19 @@ button { cursor: pointer; border: none; font-family: inherit; }
     flex-direction: column;
     text-align: center;
     padding: 36px 24px;
+  }
+
+  .transfer-calculator {
+    padding: 24px;
+  }
+
+  .main-tabs {
+    gap: 8px;
+  }
+
+  .main-tabs .category-tab {
+    padding: 10px 16px;
+    font-size: 0.8rem;
   }
 }
 
