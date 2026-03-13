@@ -3,7 +3,9 @@
 // ============================================
 
 // ---- DATA PRODUK ----
-const products = [
+// Cek localStorage dulu (dari Admin Panel), kalau kosong pakai default
+const _savedProducts = localStorage.getItem("kedaiNindyProducts");
+let products = _savedProducts ? JSON.parse(_savedProducts) : [
   // === BERAS ===
   { id: 1, name: "Beras Premium 5kg", price: 65000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras pulen kualitas terbaik", badge: "Best Seller" },
   { id: 2, name: "Beras Medium 5kg", price: 55000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras sehari-hari harga terjangkau" },
