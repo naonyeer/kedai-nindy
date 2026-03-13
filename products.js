@@ -1,28 +1,22 @@
 // ============================================
 // KEDAI NINDY - Data Produk
 // File ini berisi semua data produk toko.
-// Untuk menambah/edit/hapus produk, gunakan Admin Panel
-// lalu download file products.js yang baru.
+// Dihasilkan otomatis oleh Admin Panel pada 13/3/2026, 12.11.54
 // ============================================
 
 const DEFAULT_PRODUCTS = [
-  // === BERAS ===
   { id: 1, name: "Beras Premium 5kg", price: 65000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras pulen kualitas terbaik", badge: "Best Seller" },
   { id: 2, name: "Beras Medium 5kg", price: 55000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras sehari-hari harga terjangkau" },
   { id: 3, name: "Beras Merah 1kg", price: 22000, category: "beras", mainCat: "jualan", emoji: "🌾", desc: "Beras merah organik sehat" },
   { id: 4, name: "Beras Ketan 1kg", price: 25000, category: "beras", mainCat: "jualan", emoji: "🍘", desc: "Untuk kue dan jajanan tradisional" },
   { id: 5, name: "Beras Premium 10kg", price: 125000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras premium kemasan besar", badge: "Hemat" },
   { id: 6, name: "Beras Pandan Wangi 5kg", price: 72000, category: "beras", mainCat: "jualan", emoji: "🌿", desc: "Nasi wangi alami pandan" },
-
-  // === ROKOK ===
   { id: 7, name: "Gudang Garam Filter", price: 28000, category: "rokok", mainCat: "jualan", emoji: "🚬", desc: "GG Filter 12 batang" },
   { id: 8, name: "Djarum Super", price: 26000, category: "rokok", mainCat: "jualan", emoji: "🚬", desc: "Djarum Super 12 batang", badge: "Populer" },
   { id: 9, name: "Surya 16", price: 32000, category: "rokok", mainCat: "jualan", emoji: "🚬", desc: "Gudang Garam Surya 16 batang" },
   { id: 10, name: "Sampoerna Mild", price: 30000, category: "rokok", mainCat: "jualan", emoji: "🚬", desc: "A Mild 16 batang" },
   { id: 11, name: "LA Bold", price: 24000, category: "rokok", mainCat: "jualan", emoji: "🚬", desc: "LA Bold 16 batang" },
   { id: 12, name: "Magnum Filter", price: 18000, category: "rokok", mainCat: "jualan", emoji: "🚬", desc: "Magnum Filter 12 batang" },
-
-  // === JAJANAN ===
   { id: 13, name: "Chitato Sapi Panggang", price: 10000, category: "jajanan", mainCat: "jualan", emoji: "🍟", desc: "Keripik kentang rasa sapi panggang" },
   { id: 14, name: "Indomie Goreng", price: 3500, category: "jajanan", mainCat: "jualan", emoji: "🍜", desc: "Mi instan goreng favorit", badge: "Laris" },
   { id: 15, name: "Oreo Original", price: 8000, category: "jajanan", mainCat: "jualan", emoji: "🍪", desc: "Biskuit Oreo rasa original" },
@@ -31,8 +25,6 @@ const DEFAULT_PRODUCTS = [
   { id: 18, name: "Beng-Beng", price: 3500, category: "jajanan", mainCat: "jualan", emoji: "🍫", desc: "Wafer karamel cokelat" },
   { id: 19, name: "Qtela Tempe", price: 9000, category: "jajanan", mainCat: "jualan", emoji: "🍘", desc: "Keripik tempe original krispi" },
   { id: 20, name: "Pop Mie Ayam", price: 5500, category: "jajanan", mainCat: "jualan", emoji: "🍜", desc: "Mi cup rasa ayam" },
-
-  // === MINUMAN DINGIN ===
   { id: 21, name: "Es Teh Pucuk Harum", price: 4000, category: "minuman", mainCat: "jualan", emoji: "🧊", desc: "Teh manis dingin segar" },
   { id: 22, name: "Coca-Cola 390ml", price: 6000, category: "minuman", mainCat: "jualan", emoji: "🥤", desc: "Minuman bersoda menyegarkan" },
   { id: 23, name: "Aqua 600ml", price: 4000, category: "minuman", mainCat: "jualan", emoji: "💧", desc: "Air mineral segar" },
@@ -43,8 +35,6 @@ const DEFAULT_PRODUCTS = [
   { id: 28, name: "Yakult", price: 3000, category: "minuman", mainCat: "jualan", emoji: "🥛", desc: "Minuman probiotik sehat" },
   { id: 29, name: "Es Kopi Susu ABC", price: 5000, category: "minuman", mainCat: "jualan", emoji: "☕", desc: "Kopi susu siap minum" },
   { id: 30, name: "Floridina Orange", price: 4000, category: "minuman", mainCat: "jualan", emoji: "🍊", desc: "Minuman jeruk dengan bulir asli" },
-
-  // === JUALAN AYAM ===
   { id: 31, name: "Ayam Potong Utuh", price: 45000, category: "ayam", mainCat: "ayam", emoji: "🐔", desc: "Ayam potong segar utuh per ekor", badge: "Segar" },
   { id: 32, name: "Dada Ayam 1kg", price: 38000, category: "ayam", mainCat: "ayam", emoji: "🍗", desc: "Dada ayam fillet tanpa tulang" },
   { id: 33, name: "Paha Ayam 1kg", price: 35000, category: "ayam", mainCat: "ayam", emoji: "🍗", desc: "Paha ayam atas segar", badge: "Laris" },
@@ -53,8 +43,6 @@ const DEFAULT_PRODUCTS = [
   { id: 36, name: "Ati Ampela 1kg", price: 28000, category: "ayam", mainCat: "ayam", emoji: "🫀", desc: "Ati ampela ayam segar" },
   { id: 37, name: "Ayam Kampung", price: 75000, category: "ayam", mainCat: "ayam", emoji: "🐓", desc: "Ayam kampung utuh per ekor", badge: "Premium" },
   { id: 38, name: "Kulit Ayam 1kg", price: 15000, category: "ayam", mainCat: "ayam", emoji: "🍗", desc: "Kulit ayam untuk kerupuk/goreng" },
-
-  // === OBAT HERBALIFE ===
   { id: 39, name: "Shake Mix Vanilla", price: 310000, category: "herbalife", mainCat: "herbalife", emoji: "🥤", desc: "Nutritional Shake Mix rasa vanila", badge: "Best Seller" },
   { id: 40, name: "Shake Mix Coklat", price: 310000, category: "herbalife", mainCat: "herbalife", emoji: "🍫", desc: "Nutritional Shake Mix rasa coklat" },
   { id: 41, name: "Shake Mix Berry", price: 310000, category: "herbalife", mainCat: "herbalife", emoji: "🍓", desc: "Nutritional Shake Mix rasa berry" },
@@ -65,8 +53,6 @@ const DEFAULT_PRODUCTS = [
   { id: 46, name: "Fiber & Herb", price: 165000, category: "herbalife", mainCat: "herbalife", emoji: "🌿", desc: "Suplemen serat untuk pencernaan" },
   { id: 47, name: "Protein Powder PPP", price: 280000, category: "herbalife", mainCat: "herbalife", emoji: "💪", desc: "Personalized Protein Powder" },
   { id: 48, name: "Cell-U-Loss", price: 175000, category: "herbalife", mainCat: "herbalife", emoji: "💧", desc: "Membantu mengurangi retensi air" },
-
-  // === SERVICE HP & ELEKTRO ===
   { id: 49, name: "Ganti LCD HP", price: 150000, category: "service", mainCat: "service", emoji: "📱", desc: "Ganti LCD/layar HP (harga mulai dari)", badge: "Populer" },
   { id: 50, name: "Ganti Baterai HP", price: 75000, category: "service", mainCat: "service", emoji: "🔋", desc: "Ganti baterai HP semua merk" },
   { id: 51, name: "Service Software HP", price: 50000, category: "service", mainCat: "service", emoji: "⚙️", desc: "Flash, unlock, install ulang HP" },
@@ -77,8 +63,6 @@ const DEFAULT_PRODUCTS = [
   { id: 56, name: "Pasang Tempered Glass", price: 20000, category: "service", mainCat: "service", emoji: "🛡️", desc: "Pasang anti gores kaca HP" },
   { id: 57, name: "Service Dispenser", price: 50000, category: "service", mainCat: "service", emoji: "💧", desc: "Perbaikan dispenser air" },
   { id: 58, name: "Isi Ulang Tinta Printer", price: 25000, category: "service", mainCat: "service", emoji: "🖨️", desc: "Refill tinta printer semua merk" },
-
-  // === TOP UP GAME ===
   { id: 59, name: "Mobile Legends 86 Diamond", price: 19000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID", badge: "Terlaris" },
   { id: 60, name: "Mobile Legends 172 Diamond", price: 37000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID" },
   { id: 61, name: "Mobile Legends 344 Diamond", price: 72000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID" },
@@ -109,8 +93,6 @@ const DEFAULT_PRODUCTS = [
   { id: 86, name: "Wuthering Waves 60 Lunite", price: 16000, category: "topup", mainCat: "topup", emoji: "🌊", desc: "Top up Lunite Wuthering Waves" },
   { id: 87, name: "Tower of Fantasy 60 Tanium", price: 16000, category: "topup", mainCat: "topup", emoji: "🗼", desc: "Top up Tanium ToF" },
   { id: 88, name: "FIFA Mobile 100 Points", price: 15000, category: "topup", mainCat: "topup", emoji: "⚽", desc: "Top up FIFA Points" },
-
-  // === AKUN PREMIUM ===
   { id: 89, name: "Netflix Premium 1 Bulan", price: 45000, category: "akun", mainCat: "akun", emoji: "🎬", desc: "Akun Netflix Premium UHD 4K", badge: "Best Seller" },
   { id: 90, name: "Netflix Premium 3 Bulan", price: 120000, category: "akun", mainCat: "akun", emoji: "🎬", desc: "Netflix Premium 3 bulan hemat", badge: "Hemat" },
   { id: 91, name: "Spotify Premium 1 Bulan", price: 15000, category: "akun", mainCat: "akun", emoji: "🎵", desc: "Spotify Premium tanpa iklan", badge: "Laris" },
@@ -139,4 +121,5 @@ const DEFAULT_PRODUCTS = [
   { id: 114, name: "IQIYI VIP 1 Bulan", price: 15000, category: "akun", mainCat: "akun", emoji: "📺", desc: "IQIYI VIP Premium tanpa iklan" },
   { id: 115, name: "Duolingo Plus 1 Bulan", price: 30000, category: "akun", mainCat: "akun", emoji: "🦉", desc: "Duolingo Plus belajar bahasa premium" },
   { id: 116, name: "Scribd Premium 1 Bulan", price: 25000, category: "akun", mainCat: "akun", emoji: "📚", desc: "Scribd unlimited buku & audiobook" },
+  { id: 117, name: "Beras 50 kg", price: 500000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras enak", badge: "Murah Meriah" },
 ];
