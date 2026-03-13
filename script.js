@@ -75,6 +75,68 @@ const products = [
   { id: 56, name: "Pasang Tempered Glass", price: 20000, category: "service", mainCat: "service", emoji: "🛡️", desc: "Pasang anti gores kaca HP" },
   { id: 57, name: "Service Dispenser", price: 50000, category: "service", mainCat: "service", emoji: "💧", desc: "Perbaikan dispenser air" },
   { id: 58, name: "Isi Ulang Tinta Printer", price: 25000, category: "service", mainCat: "service", emoji: "🖨️", desc: "Refill tinta printer semua merk" },
+
+  // === TOP UP GAME ===
+  { id: 59, name: "Mobile Legends 86 Diamond", price: 19000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID", badge: "Terlaris" },
+  { id: 60, name: "Mobile Legends 172 Diamond", price: 37000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID" },
+  { id: 61, name: "Mobile Legends 344 Diamond", price: 72000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID" },
+  { id: 62, name: "Mobile Legends 706 Diamond", price: 143000, category: "topup", mainCat: "topup", emoji: "⚔️", desc: "Top up diamond ML via ID", badge: "Hemat" },
+  { id: 63, name: "Free Fire 100 Diamond", price: 15000, category: "topup", mainCat: "topup", emoji: "🔥", desc: "Top up diamond FF via ID", badge: "Populer" },
+  { id: 64, name: "Free Fire 310 Diamond", price: 46000, category: "topup", mainCat: "topup", emoji: "🔥", desc: "Top up diamond FF via ID" },
+  { id: 65, name: "Free Fire 520 Diamond", price: 72000, category: "topup", mainCat: "topup", emoji: "🔥", desc: "Top up diamond FF via ID" },
+  { id: 66, name: "PUBG Mobile 60 UC", price: 15000, category: "topup", mainCat: "topup", emoji: "🎯", desc: "Top up UC PUBG Mobile" },
+  { id: 67, name: "PUBG Mobile 325 UC", price: 75000, category: "topup", mainCat: "topup", emoji: "🎯", desc: "Top up UC PUBG Mobile" },
+  { id: 68, name: "Genshin Impact 60 Genesis", price: 16000, category: "topup", mainCat: "topup", emoji: "🌟", desc: "Top up Genesis Crystal Genshin" },
+  { id: 69, name: "Genshin Impact 330 Genesis", price: 79000, category: "topup", mainCat: "topup", emoji: "🌟", desc: "Top up Genesis Crystal Genshin", badge: "Hot" },
+  { id: 70, name: "Valorant 125 VP", price: 15000, category: "topup", mainCat: "topup", emoji: "🎮", desc: "Top up Valorant Points" },
+  { id: 71, name: "Valorant 425 VP", price: 50000, category: "topup", mainCat: "topup", emoji: "🎮", desc: "Top up Valorant Points" },
+  { id: 72, name: "Roblox 80 Robux", price: 15000, category: "topup", mainCat: "topup", emoji: "🧱", desc: "Top up Robux Roblox", badge: "Gen Z Fav" },
+  { id: 73, name: "Roblox 400 Robux", price: 70000, category: "topup", mainCat: "topup", emoji: "🧱", desc: "Top up Robux Roblox" },
+  { id: 74, name: "Roblox 800 Robux", price: 135000, category: "topup", mainCat: "topup", emoji: "🧱", desc: "Top up Robux Roblox" },
+  { id: 75, name: "Honkai Star Rail 60 Oneiric", price: 16000, category: "topup", mainCat: "topup", emoji: "✨", desc: "Top up Oneiric Shard HSR" },
+  { id: 76, name: "Honkai Star Rail 330 Oneiric", price: 79000, category: "topup", mainCat: "topup", emoji: "✨", desc: "Top up Oneiric Shard HSR" },
+  { id: 77, name: "Clash of Clans 80 Gems", price: 15000, category: "topup", mainCat: "topup", emoji: "🏰", desc: "Top up Gems COC" },
+  { id: 78, name: "Clash of Clans 500 Gems", price: 75000, category: "topup", mainCat: "topup", emoji: "🏰", desc: "Top up Gems COC" },
+  { id: 79, name: "Call of Duty Mobile 80 CP", price: 15000, category: "topup", mainCat: "topup", emoji: "💀", desc: "Top up CP CODM" },
+  { id: 80, name: "Fortnite 1000 V-Bucks", price: 60000, category: "topup", mainCat: "topup", emoji: "🎯", desc: "Top up V-Bucks Fortnite" },
+  { id: 81, name: "Stumble Guys 250 Gems", price: 30000, category: "topup", mainCat: "topup", emoji: "🏃", desc: "Top up Gems Stumble Guys" },
+  { id: 82, name: "Minecraft 1720 Minecoins", price: 75000, category: "topup", mainCat: "topup", emoji: "⛏️", desc: "Top up Minecoins Minecraft" },
+  { id: 83, name: "Among Us Stars 50", price: 25000, category: "topup", mainCat: "topup", emoji: "🚀", desc: "Top up Stars Among Us" },
+  { id: 84, name: "Arena of Valor 90 Voucher", price: 20000, category: "topup", mainCat: "topup", emoji: "🗡️", desc: "Top up Voucher AOV" },
+  { id: 85, name: "Zenless Zone Zero 60 Polychrome", price: 16000, category: "topup", mainCat: "topup", emoji: "⚡", desc: "Top up Polychrome ZZZ" },
+  { id: 86, name: "Wuthering Waves 60 Lunite", price: 16000, category: "topup", mainCat: "topup", emoji: "🌊", desc: "Top up Lunite Wuthering Waves" },
+  { id: 87, name: "Tower of Fantasy 60 Tanium", price: 16000, category: "topup", mainCat: "topup", emoji: "🗼", desc: "Top up Tanium ToF" },
+  { id: 88, name: "FIFA Mobile 100 Points", price: 15000, category: "topup", mainCat: "topup", emoji: "⚽", desc: "Top up FIFA Points" },
+
+  // === AKUN PREMIUM ===
+  { id: 89, name: "Netflix Premium 1 Bulan", price: 45000, category: "akun", mainCat: "akun", emoji: "🎬", desc: "Akun Netflix Premium UHD 4K", badge: "Best Seller" },
+  { id: 90, name: "Netflix Premium 3 Bulan", price: 120000, category: "akun", mainCat: "akun", emoji: "🎬", desc: "Netflix Premium 3 bulan hemat", badge: "Hemat" },
+  { id: 91, name: "Spotify Premium 1 Bulan", price: 15000, category: "akun", mainCat: "akun", emoji: "🎵", desc: "Spotify Premium tanpa iklan", badge: "Laris" },
+  { id: 92, name: "Spotify Premium 6 Bulan", price: 75000, category: "akun", mainCat: "akun", emoji: "🎵", desc: "Spotify Premium 6 bulan hemat" },
+  { id: 93, name: "YouTube Premium 1 Bulan", price: 20000, category: "akun", mainCat: "akun", emoji: "▶️", desc: "YouTube tanpa iklan + Music", badge: "Populer" },
+  { id: 94, name: "YouTube Premium 3 Bulan", price: 55000, category: "akun", mainCat: "akun", emoji: "▶️", desc: "YouTube Premium 3 bulan hemat" },
+  { id: 95, name: "Disney+ Hotstar 1 Bulan", price: 20000, category: "akun", mainCat: "akun", emoji: "🏰", desc: "Disney+ Hotstar Premium" },
+  { id: 96, name: "Disney+ Hotstar 1 Tahun", price: 100000, category: "akun", mainCat: "akun", emoji: "🏰", desc: "Disney+ Hotstar Premium setahun", badge: "Hemat" },
+  { id: 97, name: "Canva Pro 1 Bulan", price: 25000, category: "akun", mainCat: "akun", emoji: "🎨", desc: "Canva Pro full fitur design" },
+  { id: 98, name: "Canva Pro 1 Tahun", price: 150000, category: "akun", mainCat: "akun", emoji: "🎨", desc: "Canva Pro setahun super hemat", badge: "Best Deal" },
+  { id: 99, name: "ChatGPT Plus 1 Bulan", price: 200000, category: "akun", mainCat: "akun", emoji: "🤖", desc: "ChatGPT Plus GPT-4 akses penuh", badge: "Hot" },
+  { id: 100, name: "Microsoft 365 1 Tahun", price: 85000, category: "akun", mainCat: "akun", emoji: "💼", desc: "Word, Excel, PowerPoint 1TB OneDrive" },
+  { id: 101, name: "Zoom Pro 1 Bulan", price: 45000, category: "akun", mainCat: "akun", emoji: "📹", desc: "Zoom meeting tanpa batas 30 jam" },
+  { id: 102, name: "WeTV VIP 1 Bulan", price: 15000, category: "akun", mainCat: "akun", emoji: "📺", desc: "WeTV Premium drakor & variety show" },
+  { id: 103, name: "Vidio Premium 1 Bulan", price: 20000, category: "akun", mainCat: "akun", emoji: "🎞️", desc: "Vidio Premium film & sport" },
+  { id: 104, name: "VIU Premium 1 Bulan", price: 15000, category: "akun", mainCat: "akun", emoji: "📱", desc: "VIU Premium drakor tanpa iklan" },
+  { id: 105, name: "Apple Music 1 Bulan", price: 20000, category: "akun", mainCat: "akun", emoji: "🍎", desc: "Apple Music full catalog premium" },
+  { id: 106, name: "Amazon Prime Video", price: 25000, category: "akun", mainCat: "akun", emoji: "📦", desc: "Amazon Prime Video 1 bulan" },
+  { id: 107, name: "Grammarly Premium 1 Bulan", price: 35000, category: "akun", mainCat: "akun", emoji: "✍️", desc: "Grammarly Premium cek grammar AI" },
+  { id: 108, name: "NordVPN Premium 1 Bulan", price: 20000, category: "akun", mainCat: "akun", emoji: "🔒", desc: "NordVPN akses server global" },
+  { id: 109, name: "Adobe Creative Cloud", price: 75000, category: "akun", mainCat: "akun", emoji: "🖌️", desc: "Photoshop, Illustrator, Premiere 1 bln" },
+  { id: 110, name: "IMEI Registration", price: 50000, category: "akun", mainCat: "akun", emoji: "📲", desc: "Jasa daftar IMEI HP resmi Kemenperin" },
+  { id: 111, name: "iCloud Storage 50GB", price: 15000, category: "akun", mainCat: "akun", emoji: "☁️", desc: "iCloud 50GB penyimpanan 1 bulan" },
+  { id: 112, name: "iCloud Storage 200GB", price: 45000, category: "akun", mainCat: "akun", emoji: "☁️", desc: "iCloud 200GB penyimpanan 1 bulan" },
+  { id: 113, name: "HBO GO Premium", price: 25000, category: "akun", mainCat: "akun", emoji: "🎭", desc: "HBO GO Premium 1 bulan" },
+  { id: 114, name: "IQIYI VIP 1 Bulan", price: 15000, category: "akun", mainCat: "akun", emoji: "📺", desc: "IQIYI VIP Premium tanpa iklan" },
+  { id: 115, name: "Duolingo Plus 1 Bulan", price: 30000, category: "akun", mainCat: "akun", emoji: "🦉", desc: "Duolingo Plus belajar bahasa premium" },
+  { id: 116, name: "Scribd Premium 1 Bulan", price: 25000, category: "akun", mainCat: "akun", emoji: "📚", desc: "Scribd unlimited buku & audiobook" },
 ];
 
 // ---- NOMOR WHATSAPP ----
@@ -167,7 +229,7 @@ function renderProducts() {
 
   productsGrid.innerHTML = filtered.map((p, i) => {
     const inCart = cart.find(c => c.id === p.id);
-    const badgeClass = p.badge === "Best Seller" || p.badge === "Laris" || p.badge === "Favorit" || p.badge === "Populer" || p.badge === "Segar" || p.badge === "Premium"
+    const badgeClass = p.badge === "Best Seller" || p.badge === "Laris" || p.badge === "Favorit" || p.badge === "Populer" || p.badge === "Segar" || p.badge === "Premium" || p.badge === "Terlaris" || p.badge === "Gen Z Fav" || p.badge === "Hot" || p.badge === "Best Deal"
       ? "best-seller" : "";
 
     // For service items, show "Mulai dari" prefix
@@ -176,7 +238,7 @@ function renderProducts() {
     return `
       <div class="product-card" style="animation-delay:${i * 0.05}s" id="product-${p.id}">
         ${p.badge ? `<span class="product-badge ${badgeClass}">${p.badge}</span>` : ''}
-        <div class="product-image ${p.mainCat === 'ayam' ? 'ayam-bg' : ''} ${p.mainCat === 'herbalife' ? 'herbalife-bg' : ''} ${p.mainCat === 'service' ? 'service-bg' : ''}">${p.emoji}</div>
+        <div class="product-image ${p.mainCat === 'ayam' ? 'ayam-bg' : ''} ${p.mainCat === 'herbalife' ? 'herbalife-bg' : ''} ${p.mainCat === 'service' ? 'service-bg' : ''} ${p.mainCat === 'topup' ? 'topup-bg' : ''} ${p.mainCat === 'akun' ? 'akun-bg' : ''}">${p.emoji}</div>
         <div class="product-info">
           <div class="product-category-label">${getCategoryLabel(p.category, p.mainCat)}</div>
           <h3 class="product-name">${p.name}</h3>
@@ -195,7 +257,8 @@ function renderProducts() {
 function getCategoryLabel(cat, mainCat) {
   const labels = {
     beras: "Beras", rokok: "Rokok", jajanan: "Jajanan", minuman: "Minuman Dingin",
-    ayam: "Jualan Ayam", herbalife: "Obat Herbalife", service: "Service HP & Elektro"
+    ayam: "Jualan Ayam", herbalife: "Obat Herbalife", service: "Service HP & Elektro",
+    topup: "Top Up Game", akun: "Akun Premium"
   };
   return labels[cat] || cat;
 }
