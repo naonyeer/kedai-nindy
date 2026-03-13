@@ -1,7 +1,7 @@
 // ============================================
 // KEDAI NINDY - Data Produk
 // File ini berisi semua data produk toko.
-// Dihasilkan otomatis oleh Admin Panel pada 13/3/2026, 12.11.54
+// Dihasilkan otomatis oleh Admin Panel pada 13/3/2026, 12.13.56
 // ============================================
 
 const DEFAULT_PRODUCTS = [
@@ -122,4 +122,5 @@ const DEFAULT_PRODUCTS = [
   { id: 115, name: "Duolingo Plus 1 Bulan", price: 30000, category: "akun", mainCat: "akun", emoji: "🦉", desc: "Duolingo Plus belajar bahasa premium" },
   { id: 116, name: "Scribd Premium 1 Bulan", price: 25000, category: "akun", mainCat: "akun", emoji: "📚", desc: "Scribd unlimited buku & audiobook" },
   { id: 117, name: "Beras 50 kg", price: 500000, category: "beras", mainCat: "jualan", emoji: "🍚", desc: "Beras enak", badge: "Murah Meriah" },
+  { id: 118, name: "ngakak woyyy", price: 111111, category: "beras", mainCat: "jualan", emoji: "📦", desc: "" },
 ];
